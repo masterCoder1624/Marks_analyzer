@@ -12,5 +12,14 @@ def analyzer():
       
     print("Highest marks:", highest)
     print("Lowest marks:", lowest)
+
+   #finding the average of all the marks
+  total = 0
+  count = 0
+  for m in marks:
+    total = total + m
+    count += 1
+  average = total / count
+  print("the average of the marks is : " , average)
     
 marks_analyzer()
