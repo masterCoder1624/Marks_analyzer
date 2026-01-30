@@ -4,21 +4,15 @@ The program allows users to input a list of numbers (such as student marks or da
 
 This project focuses on strengthening logic building and understanding how arrays work internally without relying heavily on built-in functions.
 
-Features
+# FEATURES
 
-Find Highest Value
+1) Find Highest Value
 
-Find Lowest Value
+2) Find Lowest Value
 
-Calculate Average
-
-Display Top 3 Values
+3) Calculate Average
 
 Search for a number
-
-Sort values in Ascending order
-
-Sort values in Descending order
 
 Concepts Used
 
@@ -52,7 +46,7 @@ User selects an operation from the menu.
 
 Program processes the data and displays the result.
 
-Sample Input
+#SAMPLE INPUT
 Enter marks separated by space:
 45 67 89 32 76
 
@@ -85,6 +79,6 @@ Add Login System
 
 GUI Version using Tkinter
 
-Author
+#AUTHOR 
 
 Priyanshu Sharma
