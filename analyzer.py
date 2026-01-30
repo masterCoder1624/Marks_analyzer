@@ -21,5 +21,14 @@ def analyzer():
     count += 1
   average = total / count
   print("the average of the marks is : " , average)
+
+  #searching an element
+  target = int(input("Enter the marks to search: "))
+  for i in range(len(marks)):
+    if marks[i] == target:
+      print(f"Marks {target} found at index {i}")
+          break
+    else:
+      print(f"Marks {target} not found in the list.")
     
 marks_analyzer()
